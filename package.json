@@ -1,0 +1,32 @@
+{
+    "name": "video-conference-app",
+    "version": "1.0.0",
+    "description": "Video Conference app using Node.js, WebRTC, and Socket.io",
+    "main": "src/app.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "serve-favicon": "^2.5.0",
+        "socket.io": "^2.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    },
+    "scripts": {
+        "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mohammedovich/video-conference-app.git"
+    },
+    "keywords": [
+        "LiveStream",
+        "Server"
+    ],
+    "author": "Mohammed Ibrahim <mohammedovich@hotmail.co.uk>",
+    "license": "Apache",
+    "bugs": {
+        "url": "https://github.com/mohammedovich/video-conference-app/issues"
+    },
+    "homepage": "https://github.com/mohammedovich/video-conference-app/blob/main/README.md"
+}
